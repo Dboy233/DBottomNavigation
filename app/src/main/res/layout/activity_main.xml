@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <com.dboy.bottom.lib.nav.DBottomNavigation
+            android:id="@+id/mainNav"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <com.dboy.bottom.lib.nav.DBottomNavigation
+            android:id="@+id/mainNav1"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="24dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <com.dboy.bottom.lib.nav.DBottomNavigation
+            android:id="@+id/mainNav2"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+        <com.dboy.bottom.lib.nav.DBottomNavigation
+            android:id="@+id/mainNav3"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:clipChildren="false"
+            android:clipToPadding="false" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
