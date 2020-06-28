@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toTopOf="@id/nav_item_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:src="@mipmap/ic_tab_home_select_test" />
+          />
 
     <TextView
         android:id="@+id/nav_item_name"
