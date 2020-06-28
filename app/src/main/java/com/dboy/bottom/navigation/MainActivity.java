@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity implements DNavigationItemCl
         mDNavigationItems.add(new DNavigationItem(this, new DNavItemConfig(R.drawable.selector_tab_invite, "邀请")));
         DBottomNavigation navigation = findViewById(R.id.mainNav);
         navigation.setItems(mDNavigationItems)
-                .setIconNameMargin(8)
-                .setNavItemBottomMargin(8)
-                .setNavItemStartEndMargin(20)
                 .setBackgroundViewConfig(new BackgroundConfig(R.drawable.shape_nav_bg2));
         navigation.setOnItemClickListener(this);
     }
