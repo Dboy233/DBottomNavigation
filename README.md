@@ -1,4 +1,4 @@
-# DBottomNavigation
+# DBottomNavigation [![](https://jitpack.io/v/Dboy233/DBottomNavigation.svg)](https://jitpack.io/#Dboy233/DBottomNavigation)
 
 #### 可高度自定义的底部导航栏
 #### 高度自定义可能不是很美观，但是高度自定义
@@ -10,6 +10,25 @@
 5.item可溢出父布局显示 <br>
 6.自定义item的缩放大小 <br>
 7.自定义各个边距 <br>
+
+``` groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+}
+
+
+
+dependencies {
+	        implementation 'com.github.Dboy233:DBottomNavigation:1.0'
+}
+```
+
+
+
+
 
 ![exmp](exmp.gif)
 
