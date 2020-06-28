@@ -166,6 +166,10 @@ public class DBottomNavigation extends FrameLayout {
         return this;
     }
 
+    /**
+     *  设置item的顶部边距
+     * @param margin 边距大小
+     */
     public DBottomNavigation setItemTopMargin(int margin) {
         for (DNavigationItem item : mItems) {
             item.setTopMargin(margin);
